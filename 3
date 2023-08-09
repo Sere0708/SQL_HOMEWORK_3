@@ -1,0 +1,20 @@
+1. Отсортируйте данные по полю заработная плата (salary) в порядке возрастание и убывание.
+   SELECT FROM staf 
+   order by salary;
+
+   SELECT * FROM staf 
+   order by salary desc;   
+
+2. Выведите 5 максимальных заработных плат(salary).
+   SELECT * FROM staf 
+   order by salary desc LIMIT 5;
+
+3. Посчитайте сумарную  зарплату заработных плат.
+   SELECT sum(salary) as "Сумарная заработная плата"
+   From staf where salary;
+
+5. Найдите количество специальностей.
+   SELECT DISTINCT POST FROM STAF;
+
+
+
